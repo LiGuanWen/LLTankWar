@@ -315,9 +315,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LLTankWar/Pods-LLTankWar-resources.sh",
+				"${PODS_ROOT}/../LLTankWarClass/LLTWGame/Controller/LLTankWarGameViewController.xib",
+				"${PODS_ROOT}/../LLTankWarClass/LLTWRankingList/Controller/LLTWRankingListViewController.xib",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
