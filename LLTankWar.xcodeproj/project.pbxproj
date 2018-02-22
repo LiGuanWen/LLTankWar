@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF114DC102ABAC8E2D7D6987 /* libPods-LLTankWar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A104CF5FDB5A0BEAFA5C11 /* libPods-LLTankWar.a */; };
+		FD3E3063203E953600FF6C5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E3062203E953600FF6C5A /* AppDelegate.m */; };
+		FD3E3066203E953600FF6C5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E3065203E953600FF6C5A /* ViewController.m */; };
+		FD3E306C203E953600FF6C5A /* LLTankWar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD3E306A203E953600FF6C5A /* LLTankWar.xcdatamodeld */; };
+		FD3E306E203E953600FF6C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3E306D203E953600FF6C5A /* Assets.xcassets */; };
+		FD3E3071203E953600FF6C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3E306F203E953600FF6C5A /* LaunchScreen.storyboard */; };
+		FD3E3074203E953600FF6C5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E3073203E953600FF6C5A /* main.m */; };
+		FD3E307E203E953600FF6C5A /* LLTankWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E307D203E953600FF6C5A /* LLTankWarTests.m */; };
+		FD3E3089203E953600FF6C5A /* LLTankWarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E3088203E953600FF6C5A /* LLTankWarUITests.m */; };
+		FD3E3097203E9D8D00FF6C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3E3096203E9D8D00FF6C5A /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD3E307A203E953600FF6C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3E3056203E953600FF6C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3E305D203E953600FF6C5A;
+			remoteInfo = LLTankWar;
+		};
+		FD3E3085203E953600FF6C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3E3056203E953600FF6C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3E305D203E953600FF6C5A;
+			remoteInfo = LLTankWar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		196E473602D463589F24C9C9 /* Pods-LLTankWar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTankWar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLTankWar/Pods-LLTankWar.debug.xcconfig"; sourceTree = "<group>"; };
+		A3A104CF5FDB5A0BEAFA5C11 /* libPods-LLTankWar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLTankWar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A1A7BD094ED95B895FA6C2 /* Pods-LLTankWar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTankWar.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLTankWar/Pods-LLTankWar.release.xcconfig"; sourceTree = "<group>"; };
+		FD3E305E203E953600FF6C5A /* LLTankWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLTankWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3E3061203E953600FF6C5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD3E3062203E953600FF6C5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD3E3064203E953600FF6C5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD3E3065203E953600FF6C5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD3E306B203E953600FF6C5A /* LLTankWar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LLTankWar.xcdatamodel; sourceTree = "<group>"; };
+		FD3E306D203E953600FF6C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD3E3070203E953600FF6C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD3E3072203E953600FF6C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3E3073203E953600FF6C5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD3E3079203E953600FF6C5A /* LLTankWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLTankWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3E307D203E953600FF6C5A /* LLTankWarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTankWarTests.m; sourceTree = "<group>"; };
+		FD3E307F203E953600FF6C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3E3084203E953600FF6C5A /* LLTankWarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLTankWarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3E3088203E953600FF6C5A /* LLTankWarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTankWarUITests.m; sourceTree = "<group>"; };
+		FD3E308A203E953600FF6C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3E3096203E9D8D00FF6C5A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD3E305B203E953600FF6C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF114DC102ABAC8E2D7D6987 /* libPods-LLTankWar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3E3076203E953600FF6C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3E3081203E953600FF6C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B672F7D1A6ED506E5C313BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				196E473602D463589F24C9C9 /* Pods-LLTankWar.debug.xcconfig */,
+				D3A1A7BD094ED95B895FA6C2 /* Pods-LLTankWar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0F32F85A995C94F603ED270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3A104CF5FDB5A0BEAFA5C11 /* libPods-LLTankWar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD3E3055203E953600FF6C5A = {
+			isa = PBXGroup;
+			children = (
+				FD3E3060203E953600FF6C5A /* LLTankWar */,
+				FD3E307C203E953600FF6C5A /* LLTankWarTests */,
+				FD3E3087203E953600FF6C5A /* LLTankWarUITests */,
+				FD3E305F203E953600FF6C5A /* Products */,
+				9B672F7D1A6ED506E5C313BD /* Pods */,
+				D0F32F85A995C94F603ED270 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD3E305F203E953600FF6C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD3E305E203E953600FF6C5A /* LLTankWar.app */,
+				FD3E3079203E953600FF6C5A /* LLTankWarTests.xctest */,
+				FD3E3084203E953600FF6C5A /* LLTankWarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD3E3060203E953600FF6C5A /* LLTankWar */ = {
+			isa = PBXGroup;
+			children = (
+				FD3E3061203E953600FF6C5A /* AppDelegate.h */,
+				FD3E3062203E953600FF6C5A /* AppDelegate.m */,
+				FD3E3064203E953600FF6C5A /* ViewController.h */,
+				FD3E3065203E953600FF6C5A /* ViewController.m */,
+				FD3E3096203E9D8D00FF6C5A /* Main.storyboard */,
+				FD3E306D203E953600FF6C5A /* Assets.xcassets */,
+				FD3E306F203E953600FF6C5A /* LaunchScreen.storyboard */,
+				FD3E3072203E953600FF6C5A /* Info.plist */,
+				FD3E3073203E953600FF6C5A /* main.m */,
+				FD3E306A203E953600FF6C5A /* LLTankWar.xcdatamodeld */,
+			);
+			path = LLTankWar;
+			sourceTree = "<group>";
+		};
+		FD3E307C203E953600FF6C5A /* LLTankWarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD3E307D203E953600FF6C5A /* LLTankWarTests.m */,
+				FD3E307F203E953600FF6C5A /* Info.plist */,
+			);
+			path = LLTankWarTests;
+			sourceTree = "<group>";
+		};
+		FD3E3087203E953600FF6C5A /* LLTankWarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD3E3088203E953600FF6C5A /* LLTankWarUITests.m */,
+				FD3E308A203E953600FF6C5A /* Info.plist */,
+			);
+			path = LLTankWarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD3E305D203E953600FF6C5A /* LLTankWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3E308D203E953600FF6C5A /* Build configuration list for PBXNativeTarget "LLTankWar" */;
+			buildPhases = (
+				73593D1CAC83AC4A662EE68D /* [CP] Check Pods Manifest.lock */,
+				FD3E305A203E953600FF6C5A /* Sources */,
+				FD3E305B203E953600FF6C5A /* Frameworks */,
+				FD3E305C203E953600FF6C5A /* Resources */,
+				C23148F255DEBFF3825E3D19 /* [CP] Embed Pods Frameworks */,
+				75ABE67042F5A453750A6715 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLTankWar;
+			productName = LLTankWar;
+			productReference = FD3E305E203E953600FF6C5A /* LLTankWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD3E3078203E953600FF6C5A /* LLTankWarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3E3090203E953600FF6C5A /* Build configuration list for PBXNativeTarget "LLTankWarTests" */;
+			buildPhases = (
+				FD3E3075203E953600FF6C5A /* Sources */,
+				FD3E3076203E953600FF6C5A /* Frameworks */,
+				FD3E3077203E953600FF6C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD3E307B203E953600FF6C5A /* PBXTargetDependency */,
+			);
+			name = LLTankWarTests;
+			productName = LLTankWarTests;
+			productReference = FD3E3079203E953600FF6C5A /* LLTankWarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD3E3083203E953600FF6C5A /* LLTankWarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3E3093203E953600FF6C5A /* Build configuration list for PBXNativeTarget "LLTankWarUITests" */;
+			buildPhases = (
+				FD3E3080203E953600FF6C5A /* Sources */,
+				FD3E3081203E953600FF6C5A /* Frameworks */,
+				FD3E3082203E953600FF6C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD3E3086203E953600FF6C5A /* PBXTargetDependency */,
+			);
+			name = LLTankWarUITests;
+			productName = LLTankWarUITests;
+			productReference = FD3E3084203E953600FF6C5A /* LLTankWarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD3E3056203E953600FF6C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "第七代目";
+				TargetAttributes = {
+					FD3E305D203E953600FF6C5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FD3E3078203E953600FF6C5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD3E305D203E953600FF6C5A;
+					};
+					FD3E3083203E953600FF6C5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD3E305D203E953600FF6C5A;
+					};
+				};
+			};
+			buildConfigurationList = FD3E3059203E953600FF6C5A /* Build configuration list for PBXProject "LLTankWar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD3E3055203E953600FF6C5A;
+			productRefGroup = FD3E305F203E953600FF6C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD3E305D203E953600FF6C5A /* LLTankWar */,
+				FD3E3078203E953600FF6C5A /* LLTankWarTests */,
+				FD3E3083203E953600FF6C5A /* LLTankWarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD3E305C203E953600FF6C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3E3097203E9D8D00FF6C5A /* Main.storyboard in Resources */,
+				FD3E3071203E953600FF6C5A /* LaunchScreen.storyboard in Resources */,
+				FD3E306E203E953600FF6C5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3E3077203E953600FF6C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3E3082203E953600FF6C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73593D1CAC83AC4A662EE68D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLTankWar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75ABE67042F5A453750A6715 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLTankWar/Pods-LLTankWar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23148F255DEBFF3825E3D19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLTankWar/Pods-LLTankWar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD3E305A203E953600FF6C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3E3066203E953600FF6C5A /* ViewController.m in Sources */,
+				FD3E306C203E953600FF6C5A /* LLTankWar.xcdatamodeld in Sources */,
+				FD3E3074203E953600FF6C5A /* main.m in Sources */,
+				FD3E3063203E953600FF6C5A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3E3075203E953600FF6C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3E307E203E953600FF6C5A /* LLTankWarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3E3080203E953600FF6C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3E3089203E953600FF6C5A /* LLTankWarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD3E307B203E953600FF6C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD3E305D203E953600FF6C5A /* LLTankWar */;
+			targetProxy = FD3E307A203E953600FF6C5A /* PBXContainerItemProxy */;
+		};
+		FD3E3086203E953600FF6C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD3E305D203E953600FF6C5A /* LLTankWar */;
+			targetProxy = FD3E3085203E953600FF6C5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD3E306F203E953600FF6C5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3E3070203E953600FF6C5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD3E308B203E953600FF6C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD3E308C203E953600FF6C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD3E308E203E953600FF6C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196E473602D463589F24C9C9 /* Pods-LLTankWar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLTankWar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLTankWar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD3E308F203E953600FF6C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A1A7BD094ED95B895FA6C2 /* Pods-LLTankWar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLTankWar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLTankWar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD3E3091203E953600FF6C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLTankWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLTankWarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLTankWar.app/LLTankWar";
+			};
+			name = Debug;
+		};
+		FD3E3092203E953600FF6C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLTankWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLTankWarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLTankWar.app/LLTankWar";
+			};
+			name = Release;
+		};
+		FD3E3094203E953600FF6C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLTankWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLTankWarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLTankWar;
+			};
+			name = Debug;
+		};
+		FD3E3095203E953600FF6C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6Z4D9LT34;
+				INFOPLIST_FILE = LLTankWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLTankWarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLTankWar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD3E3059203E953600FF6C5A /* Build configuration list for PBXProject "LLTankWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3E308B203E953600FF6C5A /* Debug */,
+				FD3E308C203E953600FF6C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3E308D203E953600FF6C5A /* Build configuration list for PBXNativeTarget "LLTankWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3E308E203E953600FF6C5A /* Debug */,
+				FD3E308F203E953600FF6C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3E3090203E953600FF6C5A /* Build configuration list for PBXNativeTarget "LLTankWarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3E3091203E953600FF6C5A /* Debug */,
+				FD3E3092203E953600FF6C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3E3093203E953600FF6C5A /* Build configuration list for PBXNativeTarget "LLTankWarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3E3094203E953600FF6C5A /* Debug */,
+				FD3E3095203E953600FF6C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD3E306A203E953600FF6C5A /* LLTankWar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD3E306B203E953600FF6C5A /* LLTankWar.xcdatamodel */,
+			);
+			currentVersion = FD3E306B203E953600FF6C5A /* LLTankWar.xcdatamodel */;
+			path = LLTankWar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD3E3056203E953600FF6C5A /* Project object */;
+}
