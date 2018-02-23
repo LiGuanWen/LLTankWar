@@ -9,4 +9,18 @@
 
 @interface LLTankWarGameViewController : UIViewController
 
+@property (copy, nonatomic) void (^quitGameBlock)(void);
+/*
+ *  游戏暂停
+ */
++ (void)pauseGame;
+
+/*
+ *  重新开始
+ */
+- (void)restart;
+
++ (void)stopBadTankIn6s;
+
+
 @end

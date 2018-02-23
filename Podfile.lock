@@ -2,11 +2,15 @@ PODS:
   - FDFullscreenPopGesture (1.1)
   - LLRoute (1.0.0)
   - LLTankWar (1.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - FDFullscreenPopGesture (~> 1.1)
   - LLRoute (~> 1.0.0)
   - LLTankWar (from `.`)
+  - YYKit
 
 EXTERNAL SOURCES:
   LLTankWar:
@@ -15,8 +19,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   LLRoute: 026a0fa76af50139b3bd8f7423c6b196324130bd
-  LLTankWar: 29b969bae06270dd9f168591f52a9f97ea323174
+  LLTankWar: d58335147cc8ba325b26c74d304c7b9d6eae3f9d
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: e11e033ff4d463da6144ad2cdf081501c6ecd598
+PODFILE CHECKSUM: be30255824d34c35d66a1743c02ebf9ee8939388
 
 COCOAPODS: 1.3.0.beta.2

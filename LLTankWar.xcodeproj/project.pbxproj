@@ -316,8 +316,24 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LLTankWar/Pods-LLTankWar-resources.sh",
+				"${PODS_ROOT}/../LLTankWarClass/LLTWAbout/LLTankWarAboutViewController.xib",
 				"${PODS_ROOT}/../LLTankWarClass/LLTWGame/Controller/LLTankWarGameViewController.xib",
+				"${PODS_ROOT}/../LLTankWarClass/LLTWGame/View/Map0.xib",
+				"${PODS_ROOT}/../LLTankWarClass/LLTWGame/View/Map1.xib",
+				"${PODS_ROOT}/../LLTankWarClass/LLTWGame/View/Map2.xib",
+				"${PODS_ROOT}/../LLTankWarClass/LLTWGame/View/Map3.xib",
+				"${PODS_ROOT}/../LLTankWarClass/LLTWGame/View/Template.xib",
+				"${PODS_ROOT}/../LLTankWarClass/LLTWMenu/LLTankWarMenuViewController.xib",
 				"${PODS_ROOT}/../LLTankWarClass/LLTWRankingList/Controller/LLTWRankingListViewController.xib",
+				"${PODS_ROOT}/../LLTankWarClass/LLTankWarMusic/lltankwar_add.wav",
+				"${PODS_ROOT}/../LLTankWarClass/LLTankWarMusic/lltankwar_blast.wav",
+				"${PODS_ROOT}/../LLTankWarClass/LLTankWarMusic/lltankwar_chuxian.wav",
+				"${PODS_ROOT}/../LLTankWarClass/LLTankWarMusic/lltankwar_Explosion.wav",
+				"${PODS_ROOT}/../LLTankWarClass/LLTankWarMusic/lltankwar_fire.wav",
+				"${PODS_ROOT}/../LLTankWarClass/LLTankWarMusic/lltankwar_hit.wav",
+				"${PODS_ROOT}/../LLTankWarClass/LLTankWarMusic/lltankwar_jianqi.wav",
+				"${PODS_ROOT}/../LLTankWarClass/LLTankWarMusic/lltankwar_start.wav",
+				"${PODS_ROOT}/../LLTankWarClass/LLTWAssets.xcassets",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

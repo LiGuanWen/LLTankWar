@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "LLTankWarGameViewController.h"
 #import "LLTWRankingListViewController.h"
+#import "LLTankWarRoute.h"
 @interface ViewController ()
 
 @end
@@ -22,9 +23,10 @@
 }
 
 - (IBAction)begainGameAction:(id)sender {
-    LLTankWarGameViewController *vc = [LLTankWarGameViewController new];
-    vc.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:vc animated:YES];
+    [LLTankWarRoute routeWithUrl:[NSURL URLWithString:LLTankWar_routeWithBegin] currentVC:self hidesBottomBarWhenPushed:YES parameterDict:nil];
+//    LLTankWarGameViewController *vc = [LLTankWarGameViewController new];
+//    vc.hidesBottomBarWhenPushed = YES;
+//    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

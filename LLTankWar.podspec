@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/LiGuanWen/LLTankWar.git", :branch => "#{s.version}" }
   s.source_files = "LLTankWarClass/**/*.{h,m}"
-  s.resources    = "LLTankWarClass/**/*.xib","LLTankWarClass/**/*.bundle","LLTankWarClass/**/*.xcassets"
+  s.resources    = "LLTankWarClass/**/*.xib","LLTankWarClass/**/*.wav","LLTankWarClass/**/*.bundle","LLTankWarClass/**/*.xcassets"
 end
